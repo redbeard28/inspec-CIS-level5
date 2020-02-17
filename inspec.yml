@@ -1,0 +1,10 @@
+name: inspec-CIS-level5
+title: Debian CIS Benchmark level 5 Audit
+maintainer:  Jeremie CUADRADO
+copyright: DevSec Hardening Framework Team
+copyright_email: info@redbeard-consulting.fr
+license: Apache-2.0
+summary: Audit CIS Benchmark level 5 with InSpec. Test-suite for best-practice SSH hardening
+version: 0.1.0
+supports:
+  - os-family: unix
