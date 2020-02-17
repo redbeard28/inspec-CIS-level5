@@ -1,7 +1,13 @@
 inspec-CIS-level5
 ===================
 
-Linux SSH Audit
+Debian CIS Benchmark level 5 Audit
+
+## Requirements
+
+Of course, inspec installed. If not, use this Ansible Role [redbeard28.chefinspec](https://github.com/redbeard28/ansible-role-chefinspec.git)
+
+
 
 ## Standalone Usage
 
@@ -17,8 +23,12 @@ You can also execute the profile directly from Github:
 $ inspec exec https://github.com/dev-sec/ssh-baseline
 ```
 
-## Original work
-from [Dev Sec Team](github.com/redbeard28/dev-sec)
+## Original sources
+
+  1. InSpec - [examples](https://github.com/inspec/inspec/tree/master/examples)
+  2. Dev-Sec - [cis-dil-benchmark](https://github.com/dev-sec/cis-dil-benchmark)
+  3. CIS - [CIS_Distribution_Independent_Linux_Benchmark_v2_0_0.pdf](https://paper.bobylive.com/Security/CIS/CIS_Distribution_Independent_Linux_Benchmark_v2_0_0.pdf)
+
 
 ## License 
 Copyright 2015, Patrick Muench
